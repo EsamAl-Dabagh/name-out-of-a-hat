@@ -1,0 +1,42 @@
+.deleteBtn {
+  margin-left: 10px;
+}
+
+#listArea {
+  list-style: none;
+}
+
+#container {
+  width: 300px;
+  margin: 10% auto;
+  /* background: #6BBAA7; */
+}
+
+#nameInput {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  /*font-family: 'Oswald', sans-serif;
+  color: white; */
+  font-size: 3em;
+  font-weight: 400;
+}
+
+#h1Line2 {
+  margin-top: 0;
+  letter-spacing: 3px;
+}
+
+#btnContainer {
+  padding-left: 25px;
+  width: 100%;
+  margin: 0 auto;
+}
