@@ -7,10 +7,36 @@
 }
 
 #container {
-  width: 300px;
+  width: 600px;
   margin: 10% auto;
   /* background: #6BBAA7; */
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.box3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.box4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
 
 #nameInput {
   width: 100%;
@@ -39,4 +65,22 @@ h1 {
   padding-left: 25px;
   width: 100%;
   margin: 0 auto;
+}
+
+button {
+  height: 30px;
+  border: 0;
+  border-radius: 6px;
+}
+
+#randomBtn {
+  background-color: #FBA100;
+  color: white;
+  font-weight: bold;
+}
+
+#clearAllBtn {
+  background-color: #EFD9C1;
+  color: grey;
+  font-weight: bold;
 }

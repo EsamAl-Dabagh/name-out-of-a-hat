@@ -11,21 +11,27 @@
 
   <body>
     <div id="container">
-      <h1>Name out <br /> <span id="h1Line2">of a hat</span></h1>
+      <div class="wrapper">
+        <div class="box1">
+          <h1>Name out of a hat</h1>
+        </div>
 
+        <div class="box2">
+          <input type="text" id="nameInput" placeholder="Start by entering a name"/>
+        </div>
 
-        <input type="text" id="nameInput" placeholder="Start by entering a name"/>
+        <div class="box3">
+          <div id="btnContainer">
+            <button id="randomBtn">Pick Random Name</button>
+            <button id="clearAllBtn">Clear All Names</button>
+          </div>
+          <ul id="listArea"></ul>
+        </div>
 
-
-      <ul id="listArea"></ul>
-
-      <div id="btnContainer">
-        <button id="randomBtn">Pick Random Name</button>
-        <button id="clearAllBtn">Clear All Names</button>
+        <div class="box4">
+          <p id="winnerArea"></p>
+        </div>
       </div>
-
-      <p id="winnerArea"></p>
-
     </div>
 
 
