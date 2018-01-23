@@ -9,7 +9,7 @@ $("#nameInput").keypress(function (event){
     // Add name to array
     namesArray.push(name);
     // Display name in #listArea
-    $("#listArea").append("<li>"+ name +"</li>");
+    $("#listArea").append("<li class='listName'>"+ name +"</li>");
     // Clear input field
     $("#nameInput").val("");
   };
@@ -35,6 +35,9 @@ $("#listArea").on("click", ".deleteBtn", function(event){
   $(this).parent().slideUp(250, function(){
     $(this).remove();
   });
+
+  // Clear winnerArea
+  $("#winnerArea").html("");
 
   event.stopPropagation();
 });
