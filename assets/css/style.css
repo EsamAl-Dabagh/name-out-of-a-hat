@@ -18,26 +18,24 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .box1 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
 }
 
 .box2 {
   grid-column-start: 1;
-  grid-column-end: 2;
-  background-color: #CDCDCD;
+  grid-column-end: 5;
   padding: 10px;
   margin-right: 5px;
 }
 
 .box3 {
   grid-column-start: 2;
-  grid-column-end: 3;
-  background-color: #99D3DF;
+  grid-column-end: 4;
   height: 350px;
   padding-top: 10px;
   margin-left: 5px;
@@ -56,6 +54,12 @@ body {
   height: 30px;
   font-size: 18px;
   box-sizing: border-box;
+  border-radius: 25px;
+  border: 1px solid #CDCDCD;
+}
+
+#nameInput:focus {
+  border: 2px solid darkgrey;
 }
 
 h1 {
@@ -98,6 +102,6 @@ button {
 }
 
 .listName {
-  font-size: 25px;
+  font-size: 14px;
   font-weight: 200;
 }

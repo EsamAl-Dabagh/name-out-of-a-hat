@@ -5,7 +5,7 @@ var namesArray = [];
 $("#nameInput").keypress(function (event){
   if (event.which === 13) {   //checks if 'enter' was pressed
     // Extract string from #nameInput
-    var name = $(this).val();
+    var name = $(this).val().toUpperCase();
     // Add name to array
     namesArray.push(name);
     // Display name in #listArea
