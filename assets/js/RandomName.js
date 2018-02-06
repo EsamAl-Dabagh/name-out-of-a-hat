@@ -54,7 +54,7 @@ $("#randomBtn").on("click", function(){
     // Save random number as a variable - make sure not to go higher than length of array
     var random = Math.floor(Math.random() * namesArray.length);
     // Display winning name on page
-    $("#winnerArea").text(namesArray[random]);
+    $("#winnerArea").html("The winner is..." + namesArray[random]);
     // Change Button text
     $("#randomBtn").text("Pick Again");
   };
